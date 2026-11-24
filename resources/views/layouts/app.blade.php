@@ -10,8 +10,8 @@
 
 <body class="bg-(--sand)">
     <div class="bg-(--darkblue) p-10 flex justify-center shadow-lg">
-        <h1 class="text-white text-3xl font-extrabold text-shadow-lg">
-            Internship Website
+        <h1 class="text-white text-3xl font-extrabold text-shadow-lg hover:scale-105 transition-all duration-300">
+            <a href="{{ route('home') }}">Internship Website</a>
         </h1>
     </div>
     <div class="py-4 bg-(--purp) text-white font-semibold shadow-xl ">

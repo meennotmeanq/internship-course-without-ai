@@ -71,7 +71,11 @@ class CourseController extends Controller
      */
     public function edit(string $id)
     {
-        //
+        $course_name = Course::all();
+        return view('courses.edit', [
+            'course_name' => $course_name,
+
+        ]);
     }
 
     /**
